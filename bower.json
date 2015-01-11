@@ -1,0 +1,27 @@
+{
+  "name": "amber-compat-ie8",
+  "version": "0.1.0",
+  "homepage": "https://github.com/amber-smalltalk/amber-compat-ie8",
+  "authors": [
+    "Herbert Vojčík <herby@mailbox.sk>"
+  ],
+  "description": "Enforces jQuery 1.0 to allow Amber load on IE8",
+  "keywords": [
+    "Amber",
+    "Smalltalk",
+    "compatibility",
+    "IE8"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "<2.0.0",
+    "amber-compat-es5": "^0.1.0"
+  }
+}
